@@ -26,9 +26,9 @@ class DatabaseSeeder extends Seeder
         }
         User::truncate();
         User::create([
-            'name' => 'Alex',
-            'email' => 'alex@alex.com',
-            'password' => Hash::make('pwdpwd'),
+            'name' => 'yol',
+            'email' => 'admin@admin.com',
+            'password' => Hash::make('123123123'),
         ]);
     }
 }
